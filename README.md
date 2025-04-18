@@ -16,7 +16,9 @@ This is a simple command-line-based Library Management System built using Object
 - `User`: Can borrow and return books
 - `Admin`: Inherits from `User`, can add new books
 
-## 💻 Clone This
+## Installation
 
+1. Clone the repository:
 ```bash
-https://github.com/hussain-jawaid/Library-Management-System-OOP
+git clone https://github.com/hussain-jawaid/Library-Management-System-OOP
+cd Library-Management-System-OOP
