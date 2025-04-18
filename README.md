@@ -16,7 +16,7 @@ This is a simple command-line-based Library Management System built using Object
 - `User`: Can borrow and return books
 - `Admin`: Inherits from `User`, can add new books
 
-## Installation
+## 💻 Installation
 
 1. Clone the repository:
 ```bash
