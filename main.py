@@ -77,17 +77,19 @@ class Admin(User):
 
 
 # Example Usage
-admin = Admin("Librarian")
-admin.add_book("Atomic Habits", "James Clear")
-admin.add_book("Do Epic Shit", "Ankur Warikoo")
-admin.add_book("Think and Grow Rich", "Napoleon Hill")
-
-Library.view_books()
-
-user = User("Ali")
-user.borrow_book("Atomic Habits")
-user.borrow_book("Think and Grow Rich")
-Library.view_books()
-
-user.return_book("Atomic Habits")
-Library.view_books()
+if __name__ == '__main__':
+    admin = Admin("Librarian")
+    admin.add_book("Atomic Habits", "James Clear")
+    admin.add_book("Do Epic Shit", "Ankur Warikoo")
+    admin.add_book("Think and Grow Rich", "Napoleon Hill")
+    
+    Library.view_books()
+    
+    user = User("Ali")
+    user.borrow_book("Atomic Habits")
+    user.borrow_book("Think and Grow Rich")
+    Library.view_books()
+    
+    user.return_book("Atomic Habits")
+    Library.view_books()
+    
